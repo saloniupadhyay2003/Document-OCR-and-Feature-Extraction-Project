@@ -1,71 +1,81 @@
-**Project Overview**
+# **Document Classification and OCR-based Feature Extraction using LLMs**
 
-This project focuses on extracting text and images from scanned documents using Optical Character Recognition (OCR) techniques. The extracted content is then processed using Natural Language Processing (NLP) techniques to clean the data and annotate named entities and part-of-speech tags. Furthermore, experiments with different OCR techniques are conducted, and their performance is compared.
+## **Project Overview**
+This project focuses on extracting and analyzing text from scanned document images using Optical Character Recognition (OCR) techniques, Natural Language Processing (NLP), and Large Language Models (LLMs). The project is divided into two tasks:
 
-**Dataset Description**
+- **Task 1:** Perform OCR on document images, clean extracted text and images, conduct feature extrapolation, and compare various OCR techniques.
+- **Task 2:** Summarize extracted text using LLMs, store the processed data in an SQL database, perform vectorization for retrieval, and compare different embedding models.
 
-The dataset consists of scanned images categorized into the following 10 document types:
+## **Dataset Description**
+The dataset consists of scanned images belonging to 10 categories of documents:
 
-Advertisements
-Emails
-Forms
-Letters
-Memos
-News
-Notes
-Reports
-Resumes
-Scientific Papers
+1. Advertisements  
+2. Emails  
+3. Forms  
+4. Letters  
+5. Memos  
+6. News  
+7. Notes  
+8. Reports  
+9. Resumes  
+10. Scientific Papers  
 
-**Project Tasks**
+## **Project Structure**
 
-Task 1: OCR and Data Cleaning
-Perform OCR on scanned images to extract text and images.
-Clean the extracted text using NLP techniques.
-Task 2: Feature Extraction
-Annotate named entities.
-Perform part-of-speech tagging.
-Task 3: Performance Comparison of OCR Techniques
-Experiment with multiple OCR tools (such as Tesseract and EasyOCR).
-Evaluate their performance based on processing time, confidence score, and similarity.
+/project-directory
+│── ocr_trial.py  # Python script for OCR and NLP processing
+│── documents.db   # SQL database storing extracted text and metadata
+│── embedding_model_comparison.txt  # Performance comparison of embedding models
+│── LLMSummary.ipynb  # Jupyter Notebook for LLM-based summarization
+│── performance_report.txt  # OCR performance evaluation report
+│── ocr_results.json  # Raw OCR extraction results
+│── ocr_summary.json  # Summary of OCR performance
 
-**Implementation Details**
 
-**OCR Methods Used:**
+---
 
-Tesseract OCR: Open-source OCR engine known for accuracy and text recognition capabilities.
-EasyOCR: A deep-learning-based OCR framework that supports multiple languages.
+## **Task 1: OCR-based Text Extraction and Feature Analysis**
+1. **OCR Processing**  
+   - Applied Tesseract and EasyOCR to extract text from scanned images.  
+   - Evaluated OCR performance in terms of accuracy, processing time, and confidence scores.  
 
-**Performance Comparison Metrics:**
+2. **Text Cleaning & NLP Techniques**  
+   - Removed noise, special characters, and irrelevant text elements.  
+   - Annotated Named Entities (NER) and Part-of-Speech (POS) tags for deeper text understanding.  
 
-The extracted text's quality was assessed using the following criteria:
+3. **Performance Evaluation of OCR Models**  
+   - Conducted multiple experiments to compare the effectiveness of Tesseract and EasyOCR.  
+   - Results are documented in `performance_report.txt` and `ocr_summary.json`.  
 
-Processing Time: Measures the average time taken by each OCR engine.
+---
 
-Confidence Score: Indicates the reliability of the extracted text.
+## **Task 2: LLM-based Summarization & Data Storage**
+1. **Text Summarization using LLMs**  
+   - Implemented LLMs to generate concise summaries for extracted text.  
+   - Compared various summarization techniques for efficiency and coherence.  
 
-Text Similarity: Compares the extracted text against the original text.
+2. **Database Storage & Retrieval**  
+   - Structured and stored extracted text in `documents.db` using SQL.  
+   - Implemented retrieval functionality using keyword-based search queries.  
 
-**Summary of OCR Performance**
+3. **Vectorization & Embedding Comparison**  
+   - Converted text and images into vectorized formats for retrieval.  
+   - Compared different embedding models and reported findings in `embedding_model_comparison.txt`.  
 
-Based on the results stored in ocr_summary.json and performance_report.txt, the following insights were gathered:
+---
 
-Processing Time: EasyOCR was generally faster than Tesseract, especially for complex documents.
+## **Performance Insights**
+From the `performance_report.txt` and `ocr_summary.json`, key findings include:
 
-Accuracy: Tesseract performed slightly better in terms of confidence scores across most document categories.
+- **OCR Performance:**
+  - Tesseract and EasyOCR showed competitive confidence scores (~90%), with EasyOCR being faster.
+  - Letters and reports had the highest OCR accuracy, while handwritten notes performed poorly.  
 
-Similarity Score: The extracted text from both OCR tools showed varying degrees of similarity with original text, with better performance observed in structured documents like Reports and Resumes.
+- **Embedding Model Comparisons:**
+  - Various vectorization techniques were tested for improved document retrieval.
+  - Results showed that transformer-based embeddings offered superior retrieval performance.
 
-**Files in the Project**
+---
 
-ocr_trial.py - The script used to run OCR processing on documents.
-
-ocr_results.json - Contains the extracted text results from OCR models.
-
-ocr_summary.json - Stores the comparison of Tesseract and EasyOCR performance.
-
-performance_report.txt - Detailed report of OCR performance across different document categories.
-
-**Conclusion**
-
-This project provides an efficient pipeline for document digitization and text extraction using OCR and NLP techniques. The comparative study of different OCR methods allows for selecting the best model based on accuracy and processing efficiency. Future work may include integrating deep-learning-based OCR techniques for better accuracy and robustness.
+## **Conclusion**
+This project successfully extracted, processed, and stored text data from scanned images. The integration of LLMs for summarization and vectorization enhances text retrieval efficiency. Future improvements could focus on refining OCR accuracy for handwritten text and exploring advanced embedding techniques for better document searchability.
