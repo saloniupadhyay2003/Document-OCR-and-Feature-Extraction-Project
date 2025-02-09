@@ -23,13 +23,21 @@ The dataset consists of scanned images belonging to 10 categories of documents:
 ## **Project Structure**
 
 /project-directory
+
 │── ocr_trial.py  # Python script for OCR and NLP processing
+
 │── documents.db   # SQL database storing extracted text and metadata
+
 │── embedding_model_comparison.txt  # Performance comparison of embedding models
+
 │── LLMSummary.ipynb  # Jupyter Notebook for LLM-based summarization
+
 │── performance_report.txt  # OCR performance evaluation report
+
 │── ocr_results.json  # Raw OCR extraction results
+
 │── ocr_summary.json  # Summary of OCR performance
+
 
 
 ---
