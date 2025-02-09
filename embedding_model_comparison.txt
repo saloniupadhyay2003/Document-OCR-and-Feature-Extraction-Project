@@ -1,0 +1,28 @@
+Testing model: all-MiniLM-L6-v2
+Average Embedding Time per Document: 0.2801 seconds
+Model: all-MiniLM-L6-v2
+Average Cosine Similarity between Tesseract and EasyOCR embeddings: 0.7312
+Average Intra-Category Similarity: 0.2643
+Average Inter-Category Similarity: 0.1859
+
+Testing model: all-mpnet-base-v2
+Average Embedding Time per Document: 2.2861 seconds
+Model: all-mpnet-base-v2
+Average Cosine Similarity between Tesseract and EasyOCR embeddings: 0.7987
+Average Intra-Category Similarity: 0.3531
+Average Inter-Category Similarity: 0.2683
+
+Testing model: all-distilroberta-v1
+Average Embedding Time per Document: 1.2643 seconds
+Model: all-distilroberta-v1
+Average Cosine Similarity between Tesseract and EasyOCR embeddings: 0.6246
+Average Intra-Category Similarity: 0.4166
+Average Inter-Category Similarity: 0.3203
+
+Testing model: paraphrase-MiniLM-L12-v2
+Average Embedding Time per Document: 0.4904 seconds
+Model: paraphrase-MiniLM-L12-v2
+Average Cosine Similarity between Tesseract and EasyOCR embeddings: 0.7629
+Average Intra-Category Similarity: 0.3319
+Average Inter-Category Similarity: 0.2488
+
