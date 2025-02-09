@@ -1,0 +1,91 @@
+OCR Performance Comparison Report
+==================================================
+
+
+Category: ADVE
+------------------------------
+Tesseract Average Time: 20.487 seconds
+EasyOCR Average Time: 11.797 seconds
+Tesseract Confidence: 0.776
+EasyOCR Confidence: 0.774
+Average Similarity: 0.173
+
+Category: Email
+------------------------------
+Tesseract Average Time: 12.218 seconds
+EasyOCR Average Time: 8.146 seconds
+Tesseract Confidence: 0.833
+EasyOCR Confidence: 0.830
+Average Similarity: 0.684
+
+Category: Form
+------------------------------
+Tesseract Average Time: 19.505 seconds
+EasyOCR Average Time: 13.865 seconds
+Tesseract Confidence: 0.885
+EasyOCR Confidence: 0.811
+Average Similarity: 0.319
+
+Category: Letter
+------------------------------
+Tesseract Average Time: 29.632 seconds
+EasyOCR Average Time: 18.150 seconds
+Tesseract Confidence: 0.982
+EasyOCR Confidence: 0.975
+Average Similarity: 0.473
+
+Category: Memo
+------------------------------
+Tesseract Average Time: 27.066 seconds
+EasyOCR Average Time: 19.984 seconds
+Tesseract Confidence: 0.965
+EasyOCR Confidence: 0.957
+Average Similarity: 0.561
+
+Category: News
+------------------------------
+Tesseract Average Time: 61.663 seconds
+EasyOCR Average Time: 51.171 seconds
+Tesseract Confidence: 0.981
+EasyOCR Confidence: 0.972
+Average Similarity: 0.106
+
+Category: Note
+------------------------------
+Tesseract Average Time: 10.197 seconds
+EasyOCR Average Time: 7.023 seconds
+Tesseract Confidence: 0.649
+EasyOCR Confidence: 0.630
+Average Similarity: 0.269
+
+Category: Report
+------------------------------
+Tesseract Average Time: 38.225 seconds
+EasyOCR Average Time: 25.873 seconds
+Tesseract Confidence: 0.998
+EasyOCR Confidence: 0.997
+Average Similarity: 0.466
+
+Category: Resume
+------------------------------
+Tesseract Average Time: 50.397 seconds
+EasyOCR Average Time: 26.725 seconds
+Tesseract Confidence: 1.000
+EasyOCR Confidence: 1.000
+Average Similarity: 0.658
+
+Category: Scientific
+------------------------------
+Tesseract Average Time: 53.756 seconds
+EasyOCR Average Time: 33.221 seconds
+Tesseract Confidence: 0.973
+EasyOCR Confidence: 0.948
+Average Similarity: 0.406
+
+Overall Summary
+==============================
+Average Tesseract Processing Time: 32.314 seconds
+Average EasyOCR Processing Time: 21.596 seconds
+Average Tesseract Confidence: 0.904
+Average EasyOCR Confidence: 0.889
+Overall Average Similarity: 0.411

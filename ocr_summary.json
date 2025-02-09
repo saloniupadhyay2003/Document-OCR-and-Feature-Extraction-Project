@@ -1,0 +1,72 @@
+{
+    "ADVE": {
+        "avg_tesseract_time": 20.486746168136598,
+        "avg_easyocr_time": 11.79727466583252,
+        "avg_tesseract_confidence": 0.7755185961215525,
+        "avg_easyocr_confidence": 0.7742614017883126,
+        "avg_similarity": 0.17262864347038387
+    },
+    "Email": {
+        "avg_tesseract_time": 12.217937335968017,
+        "avg_easyocr_time": 8.14594355583191,
+        "avg_tesseract_confidence": 0.8334019706560855,
+        "avg_easyocr_confidence": 0.8299627888682202,
+        "avg_similarity": 0.6836422654247784
+    },
+    "Form": {
+        "avg_tesseract_time": 19.505319261550902,
+        "avg_easyocr_time": 13.865217666625977,
+        "avg_tesseract_confidence": 0.8849021884988568,
+        "avg_easyocr_confidence": 0.8107953058125266,
+        "avg_similarity": 0.31884047666073373
+    },
+    "Letter": {
+        "avg_tesseract_time": 29.631553564071655,
+        "avg_easyocr_time": 18.149937992095946,
+        "avg_tesseract_confidence": 0.9818328723360955,
+        "avg_easyocr_confidence": 0.9745826420497895,
+        "avg_similarity": 0.4728728635789128
+    },
+    "Memo": {
+        "avg_tesseract_time": 27.065654258728028,
+        "avg_easyocr_time": 19.9844194316864,
+        "avg_tesseract_confidence": 0.9646810764939814,
+        "avg_easyocr_confidence": 0.9566599328340321,
+        "avg_similarity": 0.5608047768642824
+    },
+    "News": {
+        "avg_tesseract_time": 61.66266152381897,
+        "avg_easyocr_time": 51.17110731124878,
+        "avg_tesseract_confidence": 0.981192798425194,
+        "avg_easyocr_confidence": 0.9716237478386103,
+        "avg_similarity": 0.10646822866979169
+    },
+    "Note": {
+        "avg_tesseract_time": 10.19706114768982,
+        "avg_easyocr_time": 7.023296184539795,
+        "avg_tesseract_confidence": 0.649031315815065,
+        "avg_easyocr_confidence": 0.6304236817947586,
+        "avg_similarity": 0.2690592852386083
+    },
+    "Report": {
+        "avg_tesseract_time": 38.22454170227051,
+        "avg_easyocr_time": 25.873311166763305,
+        "avg_tesseract_confidence": 0.9979230769230769,
+        "avg_easyocr_confidence": 0.9974223927277192,
+        "avg_similarity": 0.4660479470339347
+    },
+    "Resume": {
+        "avg_tesseract_time": 50.3969993686676,
+        "avg_easyocr_time": 26.72497257232666,
+        "avg_tesseract_confidence": 1.0,
+        "avg_easyocr_confidence": 1.0,
+        "avg_similarity": 0.6582769259918072
+    },
+    "Scientific": {
+        "avg_tesseract_time": 53.75554927825928,
+        "avg_easyocr_time": 33.2206743812561,
+        "avg_tesseract_confidence": 0.9727417286937566,
+        "avg_easyocr_confidence": 0.9478657619533136,
+        "avg_similarity": 0.4055533079678229
+    }
+}
